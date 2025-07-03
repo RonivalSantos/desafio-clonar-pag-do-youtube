@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+.menu {
+  display: flex;
+  gap: 32px;
+  justify-content: start;
+}
+.menu .icone {
+  width: 24px;
+  height: 24px;
+}
+.menu img {
+  width: 90px;
+  height: 20px;
+}
+.header-icones {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header-icones img {
+  width: 24px;
+}
+.header-icones .icone-perfil {
+  width: 34px;
+  border-radius: 50%;
+}

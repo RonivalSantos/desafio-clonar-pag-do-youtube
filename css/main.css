@@ -1,0 +1,107 @@
+main {
+  display: flex; 
+  gap: 24px;
+  padding-bottom: 10px;
+}
+.video-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 75px;
+}
+
+.video-conteudo img {
+  width: 952px;
+  height: 537px;
+}
+.video-conteudo h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 100%;
+}
+
+.componentes-video {
+  display: flex;
+  gap: 42px;
+}
+.componentes-video .canal-dio {
+  display: flex;
+  gap: 12px;
+}
+.componentes-video .canal-dio p {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.componentes-video .canal-dio span {
+  font-weight: 400;
+}
+.componentes-video .icone-dio {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.componentes-video button {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 159px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: red;
+  color: #ffffff;
+}
+.componentes-video .opcoes {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.componentes-video .opcoes img {
+  width: 24px;
+  height: 24px;
+}
+.componentes-video .opcoes p {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.vizualizacoes {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.descricao {
+  font-size: 0.875rem;
+  font-weight: 400;
+  max-width: 70ch;
+}
+
+/* ---------- vídeos relacionados abaixo  ----------*/
+
+.videos-relacionados {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.relacionado {
+  display: flex;
+  gap: 16px;
+}
+.relacionado img {
+  width: 190px;
+  height: 90px;
+}
+.relacionado-conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.relacionado-conteudo p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  max-width: 30ch;
+}
+
+.relacionado-conteudo span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  max-width: 25ch;
+}
